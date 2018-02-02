@@ -11,9 +11,7 @@ import Codewars
 
 final class MainClass {
 	static func main() {
-		print(foldArray([1, 2, 3, 4, 5, 6, 7], times: 1))
-
-
+		print(accum("abcd"))
 
 
 	}

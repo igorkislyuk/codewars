@@ -16,6 +16,7 @@
 		A6FFABEC20250CD300F61238 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6FFABEA20250CD300F61238 /* MainMenu.xib */; };
 		A6FFABF320250D5F00F61238 /* Codewars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FFAB8820250A5000F61238 /* Codewars.framework */; };
 		A6FFABF520250D8200F61238 /* MainClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FFABF420250D8200F61238 /* MainClass.swift */; };
+		A6FFABF82025100800F61238 /* StringAccum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FFABF72025100800F61238 /* StringAccum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		A6FFABED20250CD300F61238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6FFABEE20250CD300F61238 /* CodewarsApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CodewarsApp.entitlements; sourceTree = "<group>"; };
 		A6FFABF420250D8200F61238 /* MainClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainClass.swift; sourceTree = "<group>"; };
+		A6FFABF72025100800F61238 /* StringAccum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringAccum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				A6FFAB8B20250A5000F61238 /* Codewars.h */,
 				A6FFAB8C20250A5000F61238 /* Info.plist */,
 				A6FFABA220250A9F00F61238 /* ArrayFolding.swift */,
+				A6FFABF72025100800F61238 /* StringAccum.swift */,
 			);
 			path = Codewars;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6FFABF82025100800F61238 /* StringAccum.swift in Sources */,
 				A6FFABA320250A9F00F61238 /* ArrayFolding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
