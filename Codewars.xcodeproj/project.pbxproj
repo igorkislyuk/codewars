@@ -10,6 +10,12 @@
 		A6FFAB9220250A5000F61238 /* Codewars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FFAB8820250A5000F61238 /* Codewars.framework */; };
 		A6FFAB9720250A5000F61238 /* CodewarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FFAB9620250A5000F61238 /* CodewarsTests.swift */; };
 		A6FFAB9920250A5000F61238 /* Codewars.h in Headers */ = {isa = PBXBuildFile; fileRef = A6FFAB8B20250A5000F61238 /* Codewars.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6FFABA320250A9F00F61238 /* ArrayFolding.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FFABA220250A9F00F61238 /* ArrayFolding.swift */; };
+		A6FFABE720250CD300F61238 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FFABE620250CD300F61238 /* AppDelegate.swift */; };
+		A6FFABE920250CD300F61238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6FFABE820250CD300F61238 /* Assets.xcassets */; };
+		A6FFABEC20250CD300F61238 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6FFABEA20250CD300F61238 /* MainMenu.xib */; };
+		A6FFABF320250D5F00F61238 /* Codewars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FFAB8820250A5000F61238 /* Codewars.framework */; };
+		A6FFABF520250D8200F61238 /* MainClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FFABF420250D8200F61238 /* MainClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +35,14 @@
 		A6FFAB9120250A5000F61238 /* CodewarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodewarsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6FFAB9620250A5000F61238 /* CodewarsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodewarsTests.swift; sourceTree = "<group>"; };
 		A6FFAB9820250A5000F61238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6FFABA220250A9F00F61238 /* ArrayFolding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayFolding.swift; sourceTree = "<group>"; };
+		A6FFABE420250CD300F61238 /* CodewarsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodewarsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6FFABE620250CD300F61238 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A6FFABE820250CD300F61238 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6FFABEB20250CD300F61238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A6FFABED20250CD300F61238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6FFABEE20250CD300F61238 /* CodewarsApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CodewarsApp.entitlements; sourceTree = "<group>"; };
+		A6FFABF420250D8200F61238 /* MainClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,15 +61,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A6FFABE120250CD300F61238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6FFABF320250D5F00F61238 /* Codewars.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		A6FFAB7E20250A5000F61238 = {
 			isa = PBXGroup;
 			children = (
+				A6FFABE520250CD300F61238 /* CodewarsApp */,
 				A6FFAB8A20250A5000F61238 /* Codewars */,
 				A6FFAB9520250A5000F61238 /* CodewarsTests */,
 				A6FFAB8920250A5000F61238 /* Products */,
+				A6FFABDC20250BFC00F61238 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +88,7 @@
 			children = (
 				A6FFAB8820250A5000F61238 /* Codewars.framework */,
 				A6FFAB9120250A5000F61238 /* CodewarsTests.xctest */,
+				A6FFABE420250CD300F61238 /* CodewarsApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +98,7 @@
 			children = (
 				A6FFAB8B20250A5000F61238 /* Codewars.h */,
 				A6FFAB8C20250A5000F61238 /* Info.plist */,
+				A6FFABA220250A9F00F61238 /* ArrayFolding.swift */,
 			);
 			path = Codewars;
 			sourceTree = "<group>";
@@ -84,6 +110,34 @@
 				A6FFAB9820250A5000F61238 /* Info.plist */,
 			);
 			path = CodewarsTests;
+			sourceTree = "<group>";
+		};
+		A6FFABDC20250BFC00F61238 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6FFABE520250CD300F61238 /* CodewarsApp */ = {
+			isa = PBXGroup;
+			children = (
+				A6FFABF620250DA900F61238 /* Support */,
+				A6FFABF420250D8200F61238 /* MainClass.swift */,
+			);
+			path = CodewarsApp;
+			sourceTree = "<group>";
+		};
+		A6FFABF620250DA900F61238 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				A6FFABE620250CD300F61238 /* AppDelegate.swift */,
+				A6FFABE820250CD300F61238 /* Assets.xcassets */,
+				A6FFABEA20250CD300F61238 /* MainMenu.xib */,
+				A6FFABED20250CD300F61238 /* Info.plist */,
+				A6FFABEE20250CD300F61238 /* CodewarsApp.entitlements */,
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +190,23 @@
 			productReference = A6FFAB9120250A5000F61238 /* CodewarsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		A6FFABE320250CD300F61238 /* CodewarsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6FFABEF20250CD300F61238 /* Build configuration list for PBXNativeTarget "CodewarsApp" */;
+			buildPhases = (
+				A6FFABE020250CD300F61238 /* Sources */,
+				A6FFABE120250CD300F61238 /* Frameworks */,
+				A6FFABE220250CD300F61238 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodewarsApp;
+			productName = CodewarsApp;
+			productReference = A6FFABE420250CD300F61238 /* CodewarsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -148,9 +219,14 @@
 				TargetAttributes = {
 					A6FFAB8720250A5000F61238 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					A6FFAB9020250A5000F61238 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A6FFABE320250CD300F61238 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
@@ -162,12 +238,14 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = A6FFAB7E20250A5000F61238;
 			productRefGroup = A6FFAB8920250A5000F61238 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				A6FFABE320250CD300F61238 /* CodewarsApp */,
 				A6FFAB8720250A5000F61238 /* Codewars */,
 				A6FFAB9020250A5000F61238 /* CodewarsTests */,
 			);
@@ -189,6 +267,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A6FFABE220250CD300F61238 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6FFABE920250CD300F61238 /* Assets.xcassets in Resources */,
+				A6FFABEC20250CD300F61238 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -196,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6FFABA320250A9F00F61238 /* ArrayFolding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +292,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6FFAB9720250A5000F61238 /* CodewarsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6FFABE020250CD300F61238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6FFABF520250D8200F61238 /* MainClass.swift in Sources */,
+				A6FFABE720250CD300F61238 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +313,17 @@
 			targetProxy = A6FFAB9320250A5000F61238 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A6FFABEA20250CD300F61238 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6FFABEB20250CD300F61238 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A6FFAB9A20250A5000F61238 /* Debug */ = {
@@ -333,6 +441,7 @@
 		A6FFAB9D20250A5000F61238 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -347,6 +456,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dev.igorkislyuk.Codewars;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -354,6 +464,7 @@
 		A6FFAB9E20250A5000F61238 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -375,6 +486,7 @@
 		A6FFABA020250A5000F61238 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = CodewarsTests/Info.plist;
@@ -388,11 +500,42 @@
 		A6FFABA120250A5000F61238 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = CodewarsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dev.igorkislyuk.CodewarsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		A6FFABF020250CD300F61238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CodewarsApp/Support/CodewarsApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/CodewarsApp/Support/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.igorkislyuk.CodewarsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		A6FFABF120250CD300F61238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CodewarsApp/Support/CodewarsApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/CodewarsApp/Support/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.igorkislyuk.CodewarsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -424,6 +567,15 @@
 			buildConfigurations = (
 				A6FFABA020250A5000F61238 /* Debug */,
 				A6FFABA120250A5000F61238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6FFABEF20250CD300F61238 /* Build configuration list for PBXNativeTarget "CodewarsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6FFABF020250CD300F61238 /* Debug */,
+				A6FFABF120250CD300F61238 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

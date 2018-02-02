@@ -9,28 +9,13 @@
 import XCTest
 @testable import Codewars
 
-class CodewarsTests: XCTestCase {
-    
-    override func setUp() {
-        super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-    
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
-    }
-    
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-    
+class SolutionTest: XCTestCase {
+	static var allTests = [("Basic Tests", testBasic)]
+
+	func testBasic() {
+		XCTAssertEqual(foldArray([1,2,3,4,5], times: 1), [6,6,3], "\(foldArray([1,2,3,4,5], times: 1)) != \([6,6,3])")
+		XCTAssertEqual(foldArray([6,6,3], times: 1), [9,6], "\(foldArray([6,6,3], times: 1)) != \([9,6])")
+		XCTAssertEqual(foldArray([9,6], times: 1), [15], "\(foldArray([9,6], times: 1)) != \([15])")
+		XCTAssertEqual(foldArray([-9,9,-8,8,66,23], times: 1), [14,75,0], "\(foldArray([1,2,3,4,5], times: 1)) != \([6,6,3])")
+	}
 }
